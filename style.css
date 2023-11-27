@@ -172,7 +172,7 @@ h5 {
   
 }
 .section {
-    background-image: url(resourses/aside.jpg);
+    background-image: url(aside.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -192,7 +192,7 @@ h5 {
 
 
 .footer {
-    background-image: url(resourses/aside.jpg);
+    background-image: url(aside.jpg);
 
     color: #010101;
     padding: 20px;
