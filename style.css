@@ -292,7 +292,8 @@ opacity:0.5;
   .container-cards{
     display:flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 
     }
-   
