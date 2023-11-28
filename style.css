@@ -283,7 +283,7 @@ opacity:0.5;
      }
    
     }
-@media screen and (max-width:320px) {
+    @media screen and (max-width:430px) {
         .header{
             display:flex;
             flex-direction: row;
