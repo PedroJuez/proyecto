@@ -281,6 +281,10 @@ opacity:0.5;
      .card-text{
         font-size:15px;
      }
+        .header{
+            display:flex;
+            flex-direction: row;
+           
    
     }
     @media screen and (max-width:430px) {
