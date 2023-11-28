@@ -88,7 +88,6 @@ h5 {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.8);
-
 }
 
 .modal-content {
@@ -97,7 +96,6 @@ h5 {
     padding: 20px;
     border: 1px solid #888;
     width: 70%;
-
 }
 
 .close-btn {
@@ -153,10 +151,14 @@ h5 {
     margin: 10px auto 10px;
 }
 
-.articles-img {
+.articles-img-1 {
     box-shadow: 10px 0px 20px 0px rgba(122, 122, 122, 0.9);
+    width:50%;
 }
-
+.articles-img-2{
+    box-shadow: 10px 0px 20px 0px rgba(122, 122, 122, 0.9);
+    width:35%;
+}
 .contacts::before {
     content: '';
     display: block;
@@ -172,13 +174,10 @@ h5 {
   
 }
 .section {
-    background-image: url(aside.jpg);
+    background-image: url(resourses/aside.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
 
 .container-cards {
     display: flex;
@@ -192,7 +191,7 @@ h5 {
 
 
 .footer {
-    background-image: url(aside.jpg);
+    background-image: url(resourses/aside.jpg);
 
     color: #010101;
     padding: 20px;
@@ -219,5 +218,68 @@ h5 {
 
 .image:hover{
 opacity:0.5;
-
 }
+
+@media screen and (max-width:1140px) {
+    .carousel-slide-item {
+        padding-bottom: 25%;
+        font-size: 50px;
+
+    }
+    .articles-img-1{
+        width:85%;
+     }
+     .articles-img-2{
+        width:45%;
+     }
+}
+@media screen and (max-width:960px) {
+    .carousel-slide-item {
+        padding-bottom: 25%;
+        font-size: 40px;
+    }
+    .articles-img-1{
+        width:90%;
+     }
+     .articles-img-2{
+        width:55%;
+     }
+
+   
+}
+@media screen and (max-width:720px) {
+    .carousel-slide-item {
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 30%;
+ }
+ .articles-img-1{
+    width:100%;
+    margin-top: 70px;
+ }
+ .articles-img-2{
+    width:60%;
+    margin-top: 70px;
+ }
+   
+}
+@media screen and (max-width:540px) {
+    .carousel-slide-item {
+        padding-bottom: 0%;
+        font-size: 5px;
+
+    }
+    .articles-img-1{
+        width:100%;
+        margin-top: 90px;
+     }
+     .articles-img-2{
+        width:60%;
+        margin-top: 90px;
+     }
+   
+     .card-text{
+        font-size:15px;
+     }
+   
+    }
