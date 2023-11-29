@@ -316,7 +316,9 @@ h5 {
         align-items: center;
 
     }
-   
+  .logo{
+    width: 30%;
+}
 
 
 }
